@@ -42,44 +42,58 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January 11, 2019</span>
         <li class="incoming-message message">
           <img src="images/avatar.jpg" class="g-avatar message__g-avatar" />
           <div class="message__content">
+            <div class="message__bubble">배고파아아아</div>
             <span class="message__author">Best Friend</span>
-            <div class="message__bubble">
-              Congrats I love you!
-            </div>
           </div>
           <span class="message__timestamp"></span>
-          <li class="incoming-message message">
-              <span class="message__timestamp"></span>
-              <div class="message__content">
-              <div class="message__bubble">
-                Thank you!!
-              </div>
-            </div>
-          </li>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp"></span>
+          <div class="message__content">
+            <div class="message__bubble">치킨!!!!</div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="images/avatar.jpg" class="g-avatar message__g-avatar" />
+          <div class="message__content">
+            <div class="message__bubble">치킨은 몇 마리?</div>
+            <span class="message__author">Best Friend</span>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp"></span>
+          <div class="message__content">
+            <div class="message__bubble">두마리!!</div>
+          </div>
         </li>
       </ul>
     </main>
     <div class="chat__write">
-        <div class="chat__write-column">
-            <i class="far fa-plus-square"></i>
-        </div>
-        <div class="chat__write-column">
-            <input type="text" placeholder="Send message" class="chat__write-input">
-        </div>
-        <div class="chat__write-column"> 
-            <span class="chat__write-icon">
-                <i class="far fa-smile-wink"></i>
-            </span>
-            <span class="chat__write-icon">
-                <i class="fas fa-microphone"></i>
-            </span>
-        </div>
+      <div class="chat__write-column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__write-column">
+        <input
+          type="text"
+          placeholder="Send message"
+          class="chat__write-input"
+        />
+      </div>
+      <div class="chat__write-column">
+        <span class="chat__write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
     </div>
   </body>
 </html>
